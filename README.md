@@ -18,7 +18,10 @@
 
 ## 安装
 
-将 `travel-roadbook-generator.skill` 导入 Kimi（设置 → 个性化 → 技能 / 或拖入对话）。
+本仓库的 `SKILL.md` 即技能完整源码。两种用法：
+
+1. **直接导入**：把整个文件夹打包为 zip 并重命名为 `.skill`，导入 Kimi（设置 → 个性化 → 技能 / 或拖入对话）
+2. **复制源码**：将 `SKILL.md` 内容放入你的 Kimi 自定义技能目录
 
 ## 使用示例
 
@@ -28,8 +31,12 @@
 
 | 文件 | 说明 |
 |---|---|
-| `travel-roadbook-generator.skill` | 技能本体（zip 格式），导入即用 |
-| `SKILL.md` | 技能源码，修改后重新打包生成 .skill |
+| `SKILL.md` | 技能源码（唯一必需文件），修改后重新打包即为新版本的 .skill |
+| `LICENSE` | MIT 开源协议 |
+
+## 修改后如何重新打包
+
+将包含 SKILL.md 的文件夹压缩为 zip，后缀改为 `.skill` 即可。
 
 ## License
 
